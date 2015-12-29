@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C963275F1C32A8D0008C2591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C963275E1C32A8D0008C2591 /* main.m */; };
+		C96327621C32A8D0008C2591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C96327611C32A8D0008C2591 /* AppDelegate.m */; };
+		C96327651C32A8D0008C2591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96327641C32A8D0008C2591 /* ViewController.m */; };
+		C96327681C32A8D0008C2591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96327661C32A8D0008C2591 /* Main.storyboard */; };
+		C963276A1C32A8D0008C2591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96327691C32A8D0008C2591 /* Assets.xcassets */; };
+		C963276D1C32A8D0008C2591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C963276B1C32A8D0008C2591 /* LaunchScreen.storyboard */; };
+		C96327761C32A97D008C2591 /* ThreeLayerExchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96327751C32A97D008C2591 /* ThreeLayerExchangeView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C963275A1C32A8D0008C2591 /* ThreePictures3DScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreePictures3DScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C963275E1C32A8D0008C2591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C96327601C32A8D0008C2591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C96327611C32A8D0008C2591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C96327631C32A8D0008C2591 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C96327641C32A8D0008C2591 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C96327671C32A8D0008C2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96327691C32A8D0008C2591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C963276C1C32A8D0008C2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C963276E1C32A8D0008C2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96327741C32A97D008C2591 /* ThreeLayerExchangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLayerExchangeView.h; sourceTree = "<group>"; };
+		C96327751C32A97D008C2591 /* ThreeLayerExchangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeLayerExchangeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96327571C32A8D0008C2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C96327511C32A8D0008C2591 = {
+			isa = PBXGroup;
+			children = (
+				C963275C1C32A8D0008C2591 /* ThreePictures3DScrollView */,
+				C963275B1C32A8D0008C2591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C963275B1C32A8D0008C2591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C963275A1C32A8D0008C2591 /* ThreePictures3DScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C963275C1C32A8D0008C2591 /* ThreePictures3DScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C96327601C32A8D0008C2591 /* AppDelegate.h */,
+				C96327611C32A8D0008C2591 /* AppDelegate.m */,
+				C96327631C32A8D0008C2591 /* ViewController.h */,
+				C96327641C32A8D0008C2591 /* ViewController.m */,
+				C96327741C32A97D008C2591 /* ThreeLayerExchangeView.h */,
+				C96327751C32A97D008C2591 /* ThreeLayerExchangeView.m */,
+				C96327661C32A8D0008C2591 /* Main.storyboard */,
+				C96327691C32A8D0008C2591 /* Assets.xcassets */,
+				C963276B1C32A8D0008C2591 /* LaunchScreen.storyboard */,
+				C963276E1C32A8D0008C2591 /* Info.plist */,
+				C963275D1C32A8D0008C2591 /* Supporting Files */,
+			);
+			path = ThreePictures3DScrollView;
+			sourceTree = "<group>";
+		};
+		C963275D1C32A8D0008C2591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C963275E1C32A8D0008C2591 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96327591C32A8D0008C2591 /* ThreePictures3DScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96327711C32A8D0008C2591 /* Build configuration list for PBXNativeTarget "ThreePictures3DScrollView" */;
+			buildPhases = (
+				C96327561C32A8D0008C2591 /* Sources */,
+				C96327571C32A8D0008C2591 /* Frameworks */,
+				C96327581C32A8D0008C2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreePictures3DScrollView;
+			productName = ThreePictures3DScrollView;
+			productReference = C963275A1C32A8D0008C2591 /* ThreePictures3DScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96327521C32A8D0008C2591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = rex;
+				TargetAttributes = {
+					C96327591C32A8D0008C2591 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C96327551C32A8D0008C2591 /* Build configuration list for PBXProject "ThreePictures3DScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C96327511C32A8D0008C2591;
+			productRefGroup = C963275B1C32A8D0008C2591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96327591C32A8D0008C2591 /* ThreePictures3DScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96327581C32A8D0008C2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C963276D1C32A8D0008C2591 /* LaunchScreen.storyboard in Resources */,
+				C963276A1C32A8D0008C2591 /* Assets.xcassets in Resources */,
+				C96327681C32A8D0008C2591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96327561C32A8D0008C2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96327651C32A8D0008C2591 /* ViewController.m in Sources */,
+				C96327621C32A8D0008C2591 /* AppDelegate.m in Sources */,
+				C96327761C32A97D008C2591 /* ThreeLayerExchangeView.m in Sources */,
+				C963275F1C32A8D0008C2591 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96327661C32A8D0008C2591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96327671C32A8D0008C2591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C963276B1C32A8D0008C2591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C963276C1C32A8D0008C2591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C963276F1C32A8D0008C2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C96327701C32A8D0008C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96327721C32A8D0008C2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThreePictures3DScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rex.ThreePictures3DScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C96327731C32A8D0008C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThreePictures3DScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rex.ThreePictures3DScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96327551C32A8D0008C2591 /* Build configuration list for PBXProject "ThreePictures3DScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C963276F1C32A8D0008C2591 /* Debug */,
+				C96327701C32A8D0008C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96327711C32A8D0008C2591 /* Build configuration list for PBXNativeTarget "ThreePictures3DScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96327721C32A8D0008C2591 /* Debug */,
+				C96327731C32A8D0008C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96327521C32A8D0008C2591 /* Project object */;
+}
