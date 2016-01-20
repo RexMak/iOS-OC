@@ -13,7 +13,7 @@
 		C96327681C32A8D0008C2591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96327661C32A8D0008C2591 /* Main.storyboard */; };
 		C963276A1C32A8D0008C2591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96327691C32A8D0008C2591 /* Assets.xcassets */; };
 		C963276D1C32A8D0008C2591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C963276B1C32A8D0008C2591 /* LaunchScreen.storyboard */; };
-		C96327761C32A97D008C2591 /* ThreeLayerExchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96327751C32A97D008C2591 /* ThreeLayerExchangeView.m */; settings = {ASSET_TAGS = (); }; };
+		C96327761C32A97D008C2591 /* ThreeLayerExchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96327751C32A97D008C2591 /* ThreeLayerExchangeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +115,7 @@
 				TargetAttributes = {
 					C96327591C32A8D0008C2591 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = D4G9BXQWVU;
 					};
 				};
 			};
@@ -268,10 +269,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThreePictures3DScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rex.ThreePictures3DScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -280,10 +283,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThreePictures3DScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rex.ThreePictures3DScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -306,6 +311,7 @@
 				C96327731C32A8D0008C2591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
